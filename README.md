@@ -11,8 +11,8 @@ In this project, I developed and evaluated machine learning models to detect mal
 
 ***
 
-### Key Results & Conclusion
+### Results & Conclusion
 
 * **Best Performance**: The supervised models trained with **tokenized n-gram features** were the most effective. Linear SVM achieved an accuracy of 0.99 and an F1-score of 0.99.
-* **Feature Insights**: Tokenized features consistently outperformed manual ones for supervised learning. For manual features, **URL length** and the **ratio of non-alphanumeric characters** were the most predictive.
+* **Results**: Tokenized features consistently outperformed manual ones for supervised learning. For manual features, **URL length** and the **ratio of non-alphanumeric characters** were the most predictive.
 * **Conclusion**: Supervised classification using n-grams tokenization is  highly effective for identifying malicious URLs, significantly outperforming anomaly detection and models based on simpler, manually-engineered features.
